@@ -1,0 +1,27 @@
+package praktikum4;
+
+import java.util.Scanner;
+
+public class Testsiswa {
+	public static void main(String args[]) {
+		Scanner input = new Scanner(System.in) ;
+			String nama;
+			int npm;
+			
+			System.out.print("Masukan Nama :");
+			nama = input.next();
+			System.out.print("Masukan NPM :");
+			npm = input.nextInt();
+			
+			siswa anak = new siswa ();
+			anak.setNama(nama);
+			anak.setNama(npm);
+			
+			System.out.print("Nama Siswa : "+anak.nama
+					+"\nNPM Siswa : "+ anak.nrp);
+		
+	}
+				
+		
+			
+}

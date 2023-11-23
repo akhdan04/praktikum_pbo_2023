@@ -1,0 +1,19 @@
+package praktikum4;
+
+import java.util.Scanner;
+
+public class TestTabungan {
+	public static void main(String args[]) {
+		Scanner input = new Scanner(System.in);
+		int saldo, tariktunai;
+		
+		System.out.println("Masukan Jumlah Saldo : ");
+		saldo = input.nextInt();
+		
+		Tabungan tabungan = new Tabungan(5000);
+		System.out.println("saldo awal : "+tabungan.saldo);
+		tabungan.ambilUang(2300);
+		System.out.println("jumlah uang yang diaMBIL : 2300");
+		System.out.println("Saldo sekarang : "+tabungan.saldo);
+	}
+}
